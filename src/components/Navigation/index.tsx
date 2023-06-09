@@ -6,7 +6,6 @@ import { NavList, NavListItem } from "./styles";
 
 const Navigation = () => {
   const pathname = usePathname();
-  console.log(pathname)
   return (
     <NavList>
       {navLinks.map(({ path, label }) => {

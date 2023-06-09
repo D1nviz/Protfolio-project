@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const FancyButton = styled.a`
  
   background-color: transparent;
-  border: 2.5px solid #000;
+  border: 2.5px solid #04031e;
   border-radius: 0;
   box-sizing: border-box;
   color: #fff;
@@ -26,7 +26,7 @@ export const FancyButton = styled.a`
 
   &:hover {
     color: white;
-    background: black;
+    background: #04031e;
   }
 
   &::before {

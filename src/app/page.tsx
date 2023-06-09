@@ -3,10 +3,8 @@ import Overview from "@/components/Overview";
 const Home = () => {
   return (
     <>
-      <main>
-        <Overview />
-        <Bulb/>
-      </main>
+      <Overview />
+      <Bulb />
     </>
   );
 };
