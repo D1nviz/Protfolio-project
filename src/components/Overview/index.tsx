@@ -22,7 +22,7 @@ const Overview = () => {
           Turning Vision Into Reality With Code And Design.{" "}
         </IntroductionTitle>
         <IntroductionDesc>
-          As a skilled full-stack developer, I am dedicated to turning ideas
+          As a skilled frontend developer, I am dedicated to turning ideas
           into innovative web applications. Explore my latest projects and
           articles, showcasing my expertise in React.js and web development.
         </IntroductionDesc>

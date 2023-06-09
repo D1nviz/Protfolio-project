@@ -1,12 +1,7 @@
-"use client";
-import Link from "next/link";
-
-import { routes } from "@/routes";
+import Navigation from "../Navigation";
 import { contacts } from "@/constants";
 import {
   NavContainer,
-  NavList,
-  NavListItem,
   HeaderContainer,
   ContactList,
   ContactItem,
@@ -18,13 +13,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <NavContainer>
-        <NavList>
-          {routes.map(({ path, label }) => (
-            <NavListItem key={path}>
-              <Link href={path}>{label}</Link>
-            </NavListItem>
-          ))}
-        </NavList>
+        <Navigation/>
         <ContactList>
           {contacts.map(({ title, link, icon: Icon }) => (
             <ContactItem key={title}>

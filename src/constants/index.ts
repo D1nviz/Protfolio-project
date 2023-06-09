@@ -1,6 +1,10 @@
 import { FaGithub, FaInstagram, FaTelegram, FaLinkedin} from 'react-icons/fa';
 
-
+export const navLinks = [
+  {path: "/", label: "Home"},
+  {path: "/about", label: "About"},
+  {path: "/projects", label: "Projects"}
+]
 export const contacts = [
   { title: "github", link: "https://github.com/D1nviz", icon: FaGithub},
   { title: "instagram",link: "https://www.instagram.com/d1nviz/",icon: FaInstagram },

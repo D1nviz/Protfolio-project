@@ -1,6 +1,7 @@
 import StyledComponentsRegistry from "@/app/registry";
 import { Wrapper } from "@/layouts/Wrapper";
 import "./globals.css";
+import Header from "@/components/Header";
 
 export const metadata = {
   title: "Dinviz | Portfolio",
@@ -14,10 +15,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body><Wrapper>
-        <StyledComponentsRegistry>
-          {children}
-        </StyledComponentsRegistry></Wrapper>
+      <body>
+        <Wrapper>
+          <Header />
+          <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        </Wrapper>
       </body>
     </html>
   );
