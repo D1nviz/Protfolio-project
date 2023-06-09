@@ -4,10 +4,6 @@ import styled from "styled-components";
 export const ContactsTitle = styled.p`
   font-size: 1.6rem;
   margin-right: 2rem;
-  transition: all .2s;
-  &:hover {
-    transform: translateY(-2px)
-  }
 `;
 export const ContactsList = styled.ul`
   display: flex;

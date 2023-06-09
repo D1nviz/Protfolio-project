@@ -19,7 +19,7 @@ export const NavListItem = styled.li`
       bottom: -5px;
       width: 0;
       height: 1.5px;
-      background-color: #04031e;
+      background-color: var(--color-primary);
       transition: all 0.3s;
     }
     &:hover::before {
@@ -33,7 +33,7 @@ export const NavListItem = styled.li`
         bottom: -5px;
         width: 100%;
         height: 1.5px;
-        background-color: #04031e;
+        background-color: var(--color-primary);
         transition: all 0.3s;
       }
     }

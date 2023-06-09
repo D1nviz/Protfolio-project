@@ -1,11 +1,24 @@
 import FooterContacts from "../FooterContacts";
-import { FooterContainer, FooterDesc, FooterWrapper } from "./styles";
+import Logo from "../Logo";
+import {
+  FooterContainer,
+  FooterDesc,
+  FooterWrapper,
+  LogoDescContainer,
+} from "./styles";
 
 const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <FooterDesc>©Created By Dinviz.<br/>2023 All Rights Reserved.</FooterDesc>
+        <LogoDescContainer>
+          <Logo />
+          <FooterDesc>
+            ©Created By Dinviz.
+            <br />
+            2023 All Rights Reserved.
+          </FooterDesc>
+        </LogoDescContainer>
         <FooterContacts />
       </FooterWrapper>
     </FooterContainer>

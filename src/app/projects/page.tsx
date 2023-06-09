@@ -1,7 +1,12 @@
-const About = () => {
+export const metadata = {
+   title: "Dinviz | Projects",
+   description: "Dinviz's projects",
+ };
+
+const Projects = () => {
   return ( 
       <h1>Coming soon...</h1>
    );
 }
 
-export default About;
+export default Projects;

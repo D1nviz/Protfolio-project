@@ -19,3 +19,7 @@ export const ContactItem = styled.li`
     transform: translateY(-3px);
   }
 `;
+export const NavLogoContainer = styled.div`
+  display: flex;
+  align-items: center;
+`;

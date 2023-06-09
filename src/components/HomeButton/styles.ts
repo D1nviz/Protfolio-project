@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const FancyButton = styled.a`
  
   background-color: transparent;
-  border: 2.5px solid #04031e;
+  border: 2.5px solid var(--color-primary);
   border-radius: 0;
   box-sizing: border-box;
   color: #fff;
@@ -26,14 +26,14 @@ export const FancyButton = styled.a`
 
   &:hover {
     color: white;
-    background: #04031e;
+    background: var(--color-primary);
   }
 
   &::before {
     content: " ";
     width: 1.5625rem;
     height: 2px;
-    background: black;
+    background: #000;
     top: 50%;
     left: 1rem;
     position: absolute;
@@ -44,7 +44,7 @@ export const FancyButton = styled.a`
 
   &:hover::before {
     width: 0.9375rem;
-    background: white;
+    background: #fff;
   }
 
   .text {
@@ -55,7 +55,7 @@ export const FancyButton = styled.a`
     text-align: left;
     transition: all 0.3s ease-in-out;
     text-decoration: none;
-    color: black;
+    color: #000;
   }
 
   &:hover .text {
