@@ -1,10 +1,14 @@
 "use client";
+import { FC } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { navLinks } from "@/constants";
 import { NavList, NavListItem } from "./styles";
+import { INavLink } from "@/types";
 
-const Navigation = () => {
+interface INavigationProps {
+  navLinks: INavLink[];
+}
+const Navigation: FC<INavigationProps> = ({ navLinks }) => {
   const pathname = usePathname();
   return (
     <NavList>
@@ -12,7 +16,9 @@ const Navigation = () => {
         const isActive = pathname === path;
         return (
           <NavListItem key={path}>
-            <Link className={isActive? "active" : ""} href={path}>{label}</Link>
+            <Link className={isActive ? "active" : ""} href={path}>
+              {label}
+            </Link>
           </NavListItem>
         );
       })}

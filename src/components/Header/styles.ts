@@ -6,6 +6,7 @@ export const NavContainer = styled.nav`
   margin: 3rem 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 `;
 
 export const ContactList = styled.ul`
@@ -21,5 +22,4 @@ export const ContactItem = styled.li`
 `;
 export const NavLogoContainer = styled.div`
   display: flex;
-  align-items: center;
 `;

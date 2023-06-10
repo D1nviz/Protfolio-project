@@ -1,5 +1,5 @@
 import StyledComponentsRegistry from "@/app/registry";
-import { Wrapper } from "@/layouts/Wrapper";
+import { Wrapper } from "@/ui/Wrapper";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";

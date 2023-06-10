@@ -1,5 +1,7 @@
+import { FC } from "react";
 import FooterContacts from "../FooterContacts";
-import Logo from "../Logo";
+import Logo from "../../ui/Logo";
+import { contacts } from "@/constants";
 import {
   FooterContainer,
   FooterDesc,
@@ -7,7 +9,7 @@ import {
   LogoDescContainer,
 } from "./styles";
 
-const Footer = () => {
+const Footer: FC = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
@@ -19,7 +21,7 @@ const Footer = () => {
             2023 All Rights Reserved.
           </FooterDesc>
         </LogoDescContainer>
-        <FooterContacts />
+        <FooterContacts contacts={contacts} />
       </FooterWrapper>
     </FooterContainer>
   );

@@ -1,3 +1,4 @@
+import { FC } from "react";
 import {
   OverviewContainer,
   ImgContainer,
@@ -6,12 +7,12 @@ import {
   IntroductionTitle,
   ButtonsContainer,
 } from "./styles";
-import { InlineButton } from "@/components/InlineButton";
+import { InlineButton } from "@/ui/InlineButton";
 import colorMan from "../../../public/img/developer-pic-1.png";
 import Image from "next/image";
-import HomeButton from "../HomeButton";
+import HomeButton from "@/ui/HomeButton";
 
-const Overview = () => {
+const Overview: FC = () => {
   return (
     <OverviewContainer>
       <ImgContainer>
@@ -22,13 +23,15 @@ const Overview = () => {
           Turning Vision Into Reality With Code And Design.{" "}
         </IntroductionTitle>
         <IntroductionDesc>
-          As a skilled frontend developer, I am dedicated to turning ideas
-          into innovative web applications. Explore my latest projects and
-          articles, showcasing my expertise in React.js and web development.
+          As a skilled frontend developer, I am dedicated to turning ideas into
+          innovative web applications. Explore my latest projects and articles,
+          showcasing my expertise in React.js and web development.
         </IntroductionDesc>
         <ButtonsContainer>
           <HomeButton />
-          <InlineButton href="https://t.me/Dinviz">Contact</InlineButton>
+          <InlineButton href="https://t.me/Dinviz" target="_blank">
+            Contact
+          </InlineButton>
         </ButtonsContainer>
       </IntroductionContainer>
     </OverviewContainer>

@@ -1,11 +1,12 @@
+import { FC } from "react";
 import Image from "next/image";
 import { BulbContainer } from "./styles";
 import BulbImg from "../../../public/bulb.svg";
 
-const Bulb = () => {
+const Bulb: FC = () => {
   return (
     <BulbContainer>
-      <Image src={BulbImg} alt="Bulb" width={150} height={150}/>
+      <Image src={BulbImg} title="Light!" alt="Bulb" width={100} height={150} />
     </BulbContainer>
   );
 };

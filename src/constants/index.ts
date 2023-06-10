@@ -1,12 +1,14 @@
 import { v4 as uuidv4 } from "uuid";
 import { FaGithub, FaInstagram, FaTelegram, FaLinkedin } from "react-icons/fa";
+import { IContact, INavLink } from "@/types";
 
-export const navLinks = [
+export const navLinks: INavLink[] = [
   { path: "/", label: "Home" },
   { path: "/about", label: "About" },
   { path: "/projects", label: "Projects" },
 ];
-export const contacts = [
+
+export const contacts: IContact[] = [
   {
     id: uuidv4(),
     title: "Github",

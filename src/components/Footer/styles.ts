@@ -7,7 +7,7 @@ export const FooterContainer = styled.footer`
   height: 10rem;
 `;
 export const FooterWrapper = styled.div`
-  max-width: 120rem;
+  max-width: 80%;
   margin: 0 auto;
   height: 100%;
   display: flex;

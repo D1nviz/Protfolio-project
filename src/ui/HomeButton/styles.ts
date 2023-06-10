@@ -2,7 +2,6 @@
 import styled from "styled-components";
 
 export const FancyButton = styled.a`
- 
   background-color: transparent;
   border: 2.5px solid var(--color-primary);
   border-radius: 0;
@@ -12,10 +11,10 @@ export const FancyButton = styled.a`
   display: inline-block;
   font-weight: 700;
   letter-spacing: 0.05em;
-  margin-right: 4rem; 
+  margin-right: 4rem;
   outline: none;
   overflow: visible;
-  padding: .7em .8em;
+  padding: 0.7em 0.8em;
   position: relative;
   text-align: center;
   text-decoration: none;

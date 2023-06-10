@@ -1,4 +1,5 @@
-import Bulb from "@/components/Bulb";
+import { FC } from "react";
+import Bulb from "@/ui/Bulb";
 import Overview from "@/components/Overview";
 
 export const metadata = {
@@ -6,7 +7,7 @@ export const metadata = {
   description: "Interesting portfolio with cool design",
 };
 
-const Home = () => {
+const Home: FC = () => {
   return (
     <>
       <Overview />
