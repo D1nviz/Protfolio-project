@@ -1,7 +1,7 @@
 "use client";
 import styled from "styled-components";
 
-export const OverviewContainer = styled.div`
+export const OverviewContainer = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;

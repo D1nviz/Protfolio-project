@@ -2,6 +2,8 @@
 
 :root {
   --color-primary: #1b1b1b;
+  --color-secondary: #424242;
+  --color-tertiary: rgba(27,27,27,.75);
 }
 * {
   margin: 0;

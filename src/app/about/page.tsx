@@ -1,3 +1,5 @@
+import AboutAuthor from "@/components/AboutAuthor";
+import { AboutCaption } from "@/components/AboutCaption";
 import { FC } from "react";
 
 export const metadata = {
@@ -6,7 +8,12 @@ export const metadata = {
 };
 
 const About: FC = () => {
-  return <h1>Coming soon...</h1>;
+  return (
+    <>
+      <AboutCaption>Passion Fuels Purpose!</AboutCaption>
+      <AboutAuthor/>
+    </>
+  );
 };
 
 export default About;
